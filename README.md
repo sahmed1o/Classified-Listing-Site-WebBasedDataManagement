@@ -1,11 +1,11 @@
 # 60-307-Web-BasedDataManagement
 Rental Listing Website Designed for the 60-307 web development course at the University of Windsor
 
-Application Purpose and Users 
+# Application Purpose and Users 
 
 A work-flow based application used to rent out rooms via advertisements placed on the website to tenants, from landlords with a valid rental license for apartments, or houses in Canada. Landlords can provide a listing on rooms for users to view. A tenant user browses the website containing advertisement on rooms for rent, and can contact the landlord, and send an application for the room. Tenants can also create a listing on the website to search for a room mate. Tenants and landlords have to register on the website by inputting data, in which the super-user (administrator) will verify the information and approve, or disapprove of the account for the landlords account. The super-user (administrator) also decides whether to approve or disapprove the listing by the landlord or tenant.
 
-Data Storage
+# Data Storage
 
 Data is stored in the MySql database as tables:
 
@@ -60,11 +60,11 @@ CREATE TABLE `tlaadminstrator`(
   PRIMARY KEY (user_name)
 ) ;
 
-Security
+# Security
 
 There are four user levels; super-user (administrator), authenticated landlord user, authenticated tenant user, unauthenticated user., in which the unauthenticated user is restricted from the website besides browsing the advertisements listed. The super-user approves of landlord accounts, although both tenant users and landlord users have to go through the registration process. Tenant users and landlord users can post advertisements but both are under two different categories and must be approved by the super-user. User authentication is done on every page using session variables.
 
-Scripts
+# Scripts
 
 about.php is the a general information page that is used to give a brief description 
 of what the website is about.
@@ -111,7 +111,7 @@ web_db.php is used to provide information needed to connect to the database.
 webStyle.css is the style sheet for the entire webpage.
 
  
-List of Sources
+# List of Sources
 *These sources are also stated on each webpage document.
 
 accAdmin.php, landlordHome.php, tenantHome.php, userAds.php, search.php:
@@ -155,22 +155,22 @@ The image upload file created by Stephen Karamatos can be found here:
 http://307.myweb.cs.uwindsor.ca/apps/show-t5a
 
 
-The following libraries are used:
+# The following libraries are used:
 
-Datatables Library:
+# Datatables Library:
 Use data tables library to change tables generated on the webpage. I do not claim ownership for the software library or for the creation of it. The license falls under a MIT License and can be 
 found here: https://datatables.net/
 Link to license: https://datatables.net/license/mit
 Copyright (C) 2008-2016, SpryMedia Ltd.
 
-TinyMCE Library:
+# TinyMCE Library:
 The tiny MCE library is used to change the text area for the form input on the webpage. The free version is used. I do not claim ownership for the library or for the creation of it. 
 The library falls under a Open Source (LGPL 2.1) License and can be 
 found here: https://www.tinymce.com/
 Link to license: https://www.tinymce.com/pricing/
 Copyright (C) 2016, Ephox.
 
-Jquery Library:
+# Jquery Library:
 I do not claim ownership for the software library or for the creation of it. 
 The license falls under a MIT License and can be 
 found here: https://jquery.org
@@ -178,7 +178,7 @@ Link to license: https://jquery.org/license/
 Copyright (C) Copyright 2016 The jQuery Foundation
 
 
-Images:
+# Images:
 All images on the website have been taken from image hosting sites that fall under the Creative Commons CC0 license.
 
 Links to some of the images used:
@@ -186,7 +186,7 @@ https://stocksnap.io/photo/ED9ECE320A
 https://openclipart.org/detail/11066/users
 
  
-Created accounts for testing:
+# Created accounts for testing:
 *These accounts were created for testing various things on the web pages and are example accounts. You can register for an account as well.
 
 Tenant accounts:
