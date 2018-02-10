@@ -189,7 +189,7 @@ https://openclipart.org/detail/11066/users
 # Created accounts for testing:
 *These accounts were created for testing various things on the web pages and are example accounts. You can register for an account as well.
 
-Tenant accounts:
+**Tenant accounts:**
 
 1\)
 username: studentacc
@@ -206,7 +206,7 @@ username: tenantacc
 password: password
 
 
-Landlord accounts:
+**Landlord accounts:**
 
 1\)
 \(This account is unverified, so you can't login unless you change the status
@@ -222,7 +222,7 @@ password: password
 username: testlag
 password: password12
 
-Admin accounts:
+**Admin accounts:**
 
 1\)
 username: myAdmin
@@ -231,7 +231,7 @@ password: adminPass
 
 
 
-Link to test file:
+**Link to test file:**
 youruser.myweb.cs.uwindsor.ca/webSiteFinal/login.php
 
 Or
