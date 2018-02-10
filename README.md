@@ -1,5 +1,5 @@
 # 60-307-Web-BasedDataManagement
-Rental Listing Website Designed for the 60-307 web development course at the University of Windsor
+Rental Listing Website Designed for the 60-307 web development course at the University of Windsor. This is used exclusively for educational purposes only for the 60-307 web development course at the University of Windsor, and has been shared as a teaching tool only. It cannot be used for any commercial projects.
 
 # Application Purpose and Users 
 
