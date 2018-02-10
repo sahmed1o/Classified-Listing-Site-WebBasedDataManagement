@@ -1,6 +1,8 @@
 # 60-307-Web-BasedDataManagement
 Rental Listing Website Designed for the 60-307 web development course at the University of Windsor. This is used exclusively for educational purposes for the web development course at the University of Windsor, and has been shared here as a teaching tool. It cannot be used for any commercial projects.
 
+![main](https://user-images.githubusercontent.com/20860945/36062390-99d5931c-0e39-11e8-8169-dac080657420.png)
+
 # Application Purpose and Users 
 
 A work-flow based application used to rent out rooms via advertisements placed on the website to tenants, from landlords with a valid rental license for apartments, or houses in Canada. Landlords can provide a listing on rooms for users to view. A tenant user browses the website containing advertisement on rooms for rent, and can contact the landlord, and send an application for the room. Tenants can also create a listing on the website to search for a room mate. Tenants and landlords have to register on the website by inputting data, in which the super-user (administrator) will verify the information and approve, or disapprove of the account for the landlords account. The super-user (administrator) also decides whether to approve or disapprove the listing by the landlord or tenant.
