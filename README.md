@@ -66,75 +66,75 @@ There are four user levels; super-user (administrator), authenticated landlord u
 
 # Scripts
 
-about.php is the a general information page that is used to give a brief description 
+**about.php** is the a general information page that is used to give a brief description 
 of what the website is about.
 
-accAdmin.php is the admin account page where admins make decisions on whether accounts are removed, or approved, or whether to approve or remove advertisements posted by tenants or landlords.
+**accAdmin.php** is the admin account page where admins make decisions on whether accounts are removed, or approved, or whether to approve or remove advertisements posted by tenants or landlords.
 
-confirmation.php is a regular confirmation page that appears after a user registers an account. Used as feedback for users registering.
+**confirmation.php** is a regular confirmation page that appears after a user registers an account. Used as feedback for users registering.
 
-confirmation2.php is a regular confirmation page that appears after a user posts an ad. Used as feedback for users posting ads.
+**confirmation2.php** is a regular confirmation page that appears after a user posts an ad. Used as feedback for users posting ads.
 
-contact.php is a fairly generic contact page that uses a regular html post request to send an email to the web site developer.
+**contact.php** is a fairly generic contact page that uses a regular html post request to send an email to the web site developer.
 
-createAdmin.php is used to create an admin account on the web server. If the
+**createAdmin.php** is used to create an admin account on the web server. If the
 variables $adminUsr and $adminPass are changed, the values are tested for duplication. If there is no duplications using the primary key "username" stored in the database, then an admin account is created using the data stored in those two variables. The two variables only need to be changed, then the file should be runned on the browser to have the admin account be created. 
 
-Index.php is the central page for the website and is used for redirection. It will allow authenticated users to be redirected to the appropriate page corresponding to the user account type. Users who are not authenticated will be redirected to the login.php. User authentication is tested using session variables.
+**Index.php** is the central page for the website and is used for redirection. It will allow authenticated users to be redirected to the appropriate page corresponding to the user account type. Users who are not authenticated will be redirected to the login.php. User authentication is tested using session variables.
 
-landlordHome.php is the home page for the users with an authenticated landlord account. Users can navigate using the menus at the top, as well as post ads.
+**landlordHome.php** is the home page for the users with an authenticated landlord account. Users can navigate using the menus at the top, as well as post ads.
 
-tenantHome.php is the home page for the users with an authenticated tenant account. Users can navigate using the menus at the top, as well as post ads.
+**tenantHome.php** is the home page for the users with an authenticated tenant account. Users can navigate using the menus at the top, as well as post ads.
 
-login.php is the login page for users to sign into. Authenticated users, or users who are not logged in the website will be sent here. A form is used to validate inputted information to determine if the user has an account on the database. Users can also click on text to be redirected to the registration page if they do not have an account.
+**login.php** is the login page for users to sign into. Authenticated users, or users who are not logged in the website will be sent here. A form is used to validate inputted information to determine if the user has an account on the database. Users can also click on text to be redirected to the registration page if they do not have an account.
 
-registration.php is the registration page for users to create an account. This page allows users to register an account by inputting information to a form which is checked for validation. Users can be redirected to the login page by clicking on text placed somewhere on the same page.
+**registration.php** is the registration page for users to create an account. This page allows users to register an account by inputting information to a form which is checked for validation. Users can be redirected to the login page by clicking on text placed somewhere on the same page.
 
-registerForm.php is the registration form used for the creation of the UI for registration.php. 
+**registerForm.php** is the registration form used for the creation of the UI for registration.php. 
 
-loginForm.php is used for the creation of the UI for login.php. 
+**loginForm.php** is used for the creation of the UI for login.php. 
 
-logout.php is simply used to logout by removing session data, then redirecting back to the index page. 
+**logout.php** is simply used to logout by removing session data, then redirecting back to the index page. 
 
-outputPage.php displays the advertisement that the user clicked on in full detail referencing the id with a GET request.
+**outputPage.php** displays the advertisement that the user clicked on in full detail referencing the id with a GET request.
 
-outputPageAdmin.php displays the advertisement that the ADMIN user clicked on in full detail referencing the id with a GET request. The difference between this page and outputPage.php is that this one is for admins to see the advertisement in full depth, when logged in.
+**outputPageAdmin.php** displays the advertisement that the ADMIN user clicked on in full detail referencing the id with a GET request. The difference between this page and outputPage.php is that this one is for admins to see the advertisement in full depth, when logged in.
 
-search.php outputs a table containing data that contain key words specified by the user on the search bar using a GET request.
+**search.php** outputs a table containing data that contain key words specified by the user on the search bar using a GET request.
 
-submitAd.php is used to submit advertisements using user input on a form that uses a POST request.
+**submitAd.php** is used to submit advertisements using user input on a form that uses a POST request.
 
-userAds.php is the user advertisement page that generates a table listing all of the ads the user has created along with its status. This web page also shows ads that are rejected.
+**userAds.php** is the user advertisement page that generates a table listing all of the ads the user has created along with its status. This web page also shows ads that are rejected.
 
-web_db.php is used to provide information needed to connect to the database.
+**web_db.php** is used to provide information needed to connect to the database.
 
-webStyle.css is the style sheet for the entire webpage.
+**webStyle.css** is the style sheet for the entire webpage.
 
  
 # List of Sources
 *These sources are also stated on each webpage document.
 
-accAdmin.php, landlordHome.php, tenantHome.php, userAds.php, search.php:
+**accAdmin.php, landlordHome.php, tenantHome.php, userAds.php, search.php:**
 These pages are a heavily modified form of my guestbookadmin.php solution sent in for the Assignment in module 4. But the original creator of the complete file was Stephen Karamatos, so credits go to him for providing the files as a resource for learning.
 
 The complete file provided by Stephen Karamatos without guestbookadmin.php can be found here: http://307.myweb.cs.uwindsor.ca/apps/show-m4a
 
-Login.php,registration.php:
+**Login.php,registration.php:**
 These pages are a modified version of login_register.php created by Stephen Karamatos, credits go to him for providing the file as a resource for learning.
 
 The link to the original source file created by Stephen Karamatos can be found here:
 http://307.myweb.cs.uwindsor.ca/apps/show-m6c
 
-loginForm.php, registerForm.php:
+**loginForm.php, registerForm.php:**
 These scripts are a modified version of login_register_form.php created by Stephen Karamatos, credits go to him for providing the file as a resource for learning.
 
 The link to the original source file created by Stephen Karamatos can be found here:
 http://307.myweb.cs.uwindsor.ca/apps/show-m6c
 
-logout.php:
+**logout.php:**
 A non modified version of logout.php created by Stephen Karamatos for assignment 6, credits go to him for providing the file as a resource for learning. I don't claim any credit in the making of this file. The file is used for educational purposes for the user to log out of the website.
 
-outputPage.php,outputPageAdmin:
+**outputPage.php,outputPageAdmin:**
 These pages are a heavily modified form of my guestbookadmin.php solution sent in for the Assignment in module 4, as well as guestbook.php created by Stephen Karamatos for the submit form. The original creator of the complete file was Stephen Karamatos, so
 credits go to him for providing the files as a resource for learning. 
 
@@ -142,7 +142,7 @@ The complete file provided by Stephen Karamatos without guestbookadmin.php can b
 http://307.myweb.cs.uwindsor.ca/apps/show-m4a
 
  
-submit.php:
+**submit.php:**
 This page is a heavily modified form of my guestbookadmin.php solution sent in for the
 Assignment in module 4, as well as guestbook.php created by Stephen Karamatos for the submit form, and task5_upload.php for the image upload portion of the form. 
 The original creator of the complete file was Stephen Karamatos, so
