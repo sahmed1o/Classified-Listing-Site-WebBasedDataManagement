@@ -195,36 +195,36 @@ Tenant accounts:
 username: studentacc
 password: randompass
 
-2)
-(This account is unverified, so you can't login unless you change the status
-using the admin account.)
+2\)
+\(This account is unverified, so you can't login unless you change the status
+using the admin account.\)
 username: mrslow
 password: topgear
 
-3)
+3\)
 username: tenantacc
 password: password
 
 
 Landlord accounts:
 
-1)
-(This account is unverified, so you can't login unless you change the status
-using the admin account.)
+1\)
+\(This account is unverified, so you can't login unless you change the status
+using the admin account.\)
 username: landlordacc
 password: randompassagain
 
-2)
+2\)
 username: landlordtest
 password: password
 
-3)
+3\)
 username: testlag
 password: password12
 
 Admin accounts:
 
-1)
+1\)
 username: myAdmin
 password: adminPass
 
@@ -239,7 +239,7 @@ Or
 youruser.myweb.cs.uwindsor.ca/webSiteFinal/
 
 
-Additional Notes:
+# Additional Notes:
 *If you plan to upload the files to your own server for testing, then to create admin account, run this file after editing the two variables on createAdmin.php (instructions are in the php file):
 http://youruser.myweb.cs.uwindsor.ca/webSiteFinal/createAdmin.php
 
