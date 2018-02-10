@@ -191,7 +191,7 @@ https://openclipart.org/detail/11066/users
 
 Tenant accounts:
 
-1)
+1\)
 username: studentacc
 password: randompass
 
