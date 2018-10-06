@@ -124,14 +124,10 @@ The complete file provided by Stephen Karamatos without guestbookadmin.php can b
 **Login.php,registration.php:**
 These pages are a modified version of login_register.php created by Stephen Karamatos, credits go to him for providing the file as a resource for learning.
 
-The link to the original source file created by Stephen Karamatos can be found here:
-http://307.myweb.cs.uwindsor.ca/apps/show-m6c
 
 **loginForm.php, registerForm.php:**
 These scripts are a modified version of login_register_form.php created by Stephen Karamatos, credits go to him for providing the file as a resource for learning.
 
-The link to the original source file created by Stephen Karamatos can be found here:
-http://307.myweb.cs.uwindsor.ca/apps/show-m6c
 
 **logout.php:**
 A non modified version of logout.php created by Stephen Karamatos for assignment 6, credits go to him for providing the file as a resource for learning. I don't claim any credit in the making of this file. The file is used for educational purposes for the user to log out of the website.
@@ -140,21 +136,12 @@ A non modified version of logout.php created by Stephen Karamatos for assignment
 These pages are a heavily modified form of my guestbookadmin.php solution sent in for the Assignment in module 4, as well as guestbook.php created by Stephen Karamatos for the submit form. The original creator of the complete file was Stephen Karamatos, so
 credits go to him for providing the files as a resource for learning. 
 
-The complete file provided by Stephen Karamatos without guestbookadmin.php can be found here:
-http://307.myweb.cs.uwindsor.ca/apps/show-m4a
-
  
 **submit.php:**
 This page is a heavily modified form of my guestbookadmin.php solution sent in for the
 Assignment in module 4, as well as guestbook.php created by Stephen Karamatos for the submit form, and task5_upload.php for the image upload portion of the form. 
 The original creator of the complete file was Stephen Karamatos, so
 credits go to him for providing the files as a resource for learning. 
-
-The complete file provided by Stephen Karamatos without guestbookadmin.php can be found here:
-http://307.myweb.cs.uwindsor.ca/apps/show-m4a
-
-The image upload file created by Stephen Karamatos can be found here:
-http://307.myweb.cs.uwindsor.ca/apps/show-t5a
 
 
 # The following libraries are used:
