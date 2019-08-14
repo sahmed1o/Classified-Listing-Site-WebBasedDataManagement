@@ -1,7 +1,7 @@
 # 60-307-Web-BasedDataManagement
 Rental Listing Website Designed for the 60-307 web development course at the University of Windsor. This is used exclusively for educational purposes for the web development course at the University of Windsor, and has been shared here as a teaching tool. It cannot be used for any commercial projects.
 
-![main](https://user-images.githubusercontent.com/20860945/36062390-99d5931c-0e39-11e8-8169-dac080657420.png)
+<img src="screenshots/screen.png"   />
 
 # Application Purpose and Users 
 
