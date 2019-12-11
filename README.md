@@ -227,10 +227,4 @@ youruser.myweb.cs.uwindsor.ca/webSiteFinal/
 *If you plan to upload the files to your own server for testing, then to create admin account, run this file after editing the two variables on createAdmin.php (instructions are in the php file):
 http://youruser.myweb.cs.uwindsor.ca/webSiteFinal/createAdmin.php
 
-*Search bar is incomplete, it somewhat works.
-
-*Account button on top right of the webpages after a user logs in, is not set up.
--It was suppose to allow users to edit profile information, but was not completed on time.
-
-
 
